@@ -2,11 +2,48 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
+           
   <default revision="refs/tags/android-13.0.0_r15"
            remote="aosp"
-           sync-j="4" />
+           sync-j="4"
+           sync-c="true"
+           sync-f="true" />
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
+  <remote  name="arrow"
+           fetch="https://github.com/ArrowOS"
+           review="https://review.arrowos.net/"
+           revision="refs/heads/arrow-13.0" />
+
+  <remote  name="lineage"
+           fetch="https://github.com/lineageos"
+           revision="refs/heads/lineage-20.0" />
+
+  <remote  name="yaap"
+           fetch="https://github.com/yaap"
+           revision="refs/heads/thirteen" />
+
+  <remote name="pixelexperience"
+          fetch="https://github.com/PixelExperience"
+          revision="thirteen"  />
+
+  <remote name="pixelexperience-gitlab"
+          fetch="https://gitlab.pixelexperience.org/android"
+          revision="thirteen" />
+  <remote name="ryzen"
+          fetch="https://github.com/RyzenOS"
+          revision="tiramisu" />
+
+  <remote  name="PixelOS-Gitlab"
+           fetch="https://gitlab.com/PixelOS-AOSP"
+           revision="refs/heads/thirteen" />
 
   <superproject name="platform/superproject" remote="aosp" revision="android-13.0.0_r15" />
   <contactinfo bugurl="go/repo-bug" />
@@ -1172,5 +1209,11 @@
   <project path="tools/tradefederation/prebuilts" name="platform/tools/tradefederation/prebuilts" groups="pdk,tradefed" clone-depth="1" />
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
+
+    <!-- Ryzen -->
+  <include name="remove.xml" />
+  <include name="ryzen.xml" />
+  <include name="include.xml" />
+  
   <!-- END open-source projects -->
 </manifest>
