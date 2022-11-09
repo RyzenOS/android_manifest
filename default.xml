@@ -2,11 +2,29 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
+           
   <default revision="refs/tags/android-13.0.0_r15"
            remote="aosp"
-           sync-j="4" />
+           sync-j="4"
+           sync-c="true"
+           sync-f="true" />
+
+  <remote  name="arrow"
+           fetch="https://github.com/ArrowOS"
+           review="https://review.arrowos.net/"
+           revision="arrow-13.0" />
+
+  <remote  name="ryzen"
+           fetch="https://github.com/RyzenOS"
+           revision="tiramisu" />
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
 
   <superproject name="platform/superproject" remote="aosp" revision="android-13.0.0_r15" />
   <contactinfo bugurl="go/repo-bug" />
@@ -1172,5 +1190,11 @@
   <project path="tools/tradefederation/prebuilts" name="platform/tools/tradefederation/prebuilts" groups="pdk,tradefed" clone-depth="1" />
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
+
+    <!-- Ryzen -->
+  <include name="remove.xml" />
+  <include name="ryzen.xml" />
+  <include name="include.xml" />
+  
   <!-- END open-source projects -->
 </manifest>

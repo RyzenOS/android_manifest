@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Bootable -->
+  <project path="bootable/recovery" name="bootable_recovery" remote="ryzen" />
+
+
+  <!-- Device -->
+  <project path="device/ryzen/sepolicy" name="device_ryzen_sepolicy" remote="ryzen" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="ryzen" />
+  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="ryzen" />
+  <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy-legacy" remote="ryzen" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="ryzen" />
+
+  <!-- External -->
+  <project path="external/e2fsprogs" name="external_e2fsprogs" remote="ryzen" />
+  <project path="external/gptfdisk" name="external_gptfdisk" remote="ryzen" />
+  <project path="external/exfatprogs" name="external_exfatprogs" remote="ryzen" />
+  <project path="external/mksh" name="external_mksh" remote="ryzen" />
+  <project path="external/ntfs-3g" name="external_ntfs-3g" remote="ryzen" />
+  <project path="external/f2fs-tools" name="external_f2fs-tools" remote="ryzen" />
+  <project path="external/json-c" name="external_json-c" remote="ryzen" />
+  <project path="external/selinux" name="external_selinux" remote="ryzen" />
+  <project path="external/tinycompress" name="external_tinycompress" remote="ryzen" />
+  <project path="external/sqlite" name="external_sqlite" remote="ryzen" />
+  <project path="external/tinyxml" name="external_tinyxml" remote="ryzen" />
+
+  <!-- Frameworks -->
+  <project path="frameworks/av" name="frameworks_av" remote="ryzen" />
+  <project path="frameworks/base" name="frameworks_base" remote="ryzen" />
+  <project path="frameworks/native" name="frameworks_native" remote="ryzen" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="ryzen" />
+
+  <!-- Hardware -->
+  <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="ryzen"/>
+  <project path="hardware/qcom-caf/thermal" name="hardware_qcom_thermal" remote="ryzen" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="ryzen" />
+  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="ryzen" />
+
+  <!-- Packages Apps -->
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ryzen" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="ryzen" />
+  <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="ryzen" />
+
+  <!-- Packages Modules -->
+  <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="ryzen" />
+  <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="ryzen" />
+  <project path="packages/modules/Permission" name="packages_modules_Permission" remote="ryzen" />
+  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="ryzen" />
+
+  <!-- Prebuilts -->
+  <project path="prebuilts/abi-dumps/vndk" name="prebuilts_abi-dumps_vndk" remote="ryzen" />
+
+  <!-- Root -->
+  <project path="art" name="art" remote="ryzen" />
+  <project path="bionic" name="bionic" remote="ryzen" />
+  <project path="build/make" name="build" remote="ryzen" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" remote="ryzen" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="libcore" name="libcore" remote="ryzen" />
+
+  <!-- System -->
+  <project path="system/update_engine" name="system_update_engine" remote="ryzen" />
+  <project path="system/core" name="system_core" remote="ryzen" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="ryzen" />
+  <project path="system/vold" name="system_vold" remote="ryzen" />
+  <project path="system/extras" name="system_extras" remote="ryzen" />
+  <project path="system/tools/mkbootimg" name="system_tools_mkbootimg" remote="ryzen" />
+  <project path="system/logging" name="system_logging" remote="ryzen" />
+  <project path="system/libhidl" name="system_libhidl" remote="ryzen" />
+  
+  <!-- Vendor -->
+  <project path="vendor/ryzen" name="vendor_ryzen" remote="ryzen" />
+  <!--project path="vendor/gms" name="vendor_gms" remote="ryzen-gitlab" clone-depth="1" /-->
+
+  <!-- QCOM Vendor -->
+  <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="ryzen" />
+
+</manifest>
