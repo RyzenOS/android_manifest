@@ -14,11 +14,15 @@
   <remote  name="arrow"
            fetch="https://github.com/ArrowOS"
            review="https://review.arrowos.net/"
-           revision="arrow-13.0" />
+           revision="arrow-13.0" /> 
 
   <remote  name="ryzen"
            fetch="https://github.com/RyzenOS"
            revision="tiramisu" />
+
+  <remote  name="lineage"
+           fetch="https://github.com/LineageOS"
+           revision="lineage-20.0" />
 
   <remote  name="github"
            fetch="https://github.com/" />
