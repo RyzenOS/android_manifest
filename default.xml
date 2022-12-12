@@ -41,8 +41,8 @@
           fetch="https://github.com/RyzenOS"
           revision="tiramisu" />
 
-  <remote  name="PixelOS-Gitlab"
-           fetch="https://gitlab.com/PixelOS-AOSP"
+  <remote  name="RyzenOS-Gitlab"
+           fetch="https://gitlab.com/RyzenOS"
            revision="refs/heads/thirteen" />
 
   <superproject name="platform/superproject" remote="aosp" revision="android-13.0.0_r15" />

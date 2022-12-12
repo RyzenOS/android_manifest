@@ -62,7 +62,7 @@
   <project path="vendor/support" name="vendor_support" remote="ryzen" />
   <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="ryzen" />
   <project path="vendor/ryzen-preference" name="vendor_ryzen-preference" remote="ryzen" />
-  <project path="vendor/gms" name="vendor_gms" remote="PixelOS-Gitlab" revision="thirteen" clone-depth="1" />
+  <project path="vendor/gms" name="vendor_gms" remote="RyzenOS-Gitlab" revision="thirteen" clone-depth="1" />
   
   <!-- other repos -->
   <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="vendor_nxp_opensource_packages_apps_Nfc" remote="ryzen" />
