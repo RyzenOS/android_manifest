@@ -36,9 +36,14 @@
   <remote name="pixelexperience-gitlab"
           fetch="https://gitlab.pixelexperience.org/android"
           revision="thirteen" />
+
   <remote name="ryzen"
           fetch="https://github.com/RyzenOS"
           revision="tiramisu" />
+
+  <remote name="ProtonPlus"
+          fetch="https://github.com/protonplus-org"
+          revision="tm" />
 
   <remote  name="RyzenOS-Gitlab"
            fetch="https://gitlab.com/RyzenOS"

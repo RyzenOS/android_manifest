@@ -29,6 +29,7 @@
 
   <!-- external repos -->
   <project path="external/jemalloc_new" name="external_jemalloc_new" groups="pdk" remote="ryzen" />
+  <project path="external/faceunlock" name="external_faceunlock" remote="RyzenOS-Gitlab" revision="tiramisu" />
 
   <!-- hardware repos -->
   <project path="hardware/interfaces" name="hardware_interfaces" remote="ryzen" />
@@ -39,32 +40,23 @@
   <project path="frameworks/av" name="frameworks_av" remote="ryzen" />
   <project path="frameworks/base" name="frameworks_base" remote="ryzen" />
   <project path="frameworks/native" name="frameworks_native" remote="ryzen" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="ryzen" />
 
   <!-- packages repos -->
+  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="RyzenOS-Gitlab" revision="tiramisu" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ryzen" />
-  <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="ryzen" />
-  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="ryzen" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="ryzen" />
-  <project path="packages/modules/Permission" name="packages_modules_Permission" remote="ryzen" />
-  <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="ryzen" />
-  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="ryzen" />
+  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="ryzen" />
+  <project path="packages/modules/Permission" name="packages_modules_Permission"  remote="ryzen" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="ryzen"  />
 
   <!-- system repos -->
   <project path="system/core" name="system_core" remote="ryzen" />
-  <project path="system/media" name="system_media" remote="ryzen" /> 
-  <project path="system/sepolicy" name="system_sepolicy" remote="ryzen" />
   <project path="system/update_engine" name="system_update_engine" remote="ryzen" />
   <project path="system/vold" name="system_vold" remote="ryzen" />
 
   <!-- vendor repos -->
   <project path="vendor/ryzen" name="vendor_ryzen" remote="ryzen" />
   <project path="vendor/support" name="vendor_support" remote="ryzen" />
-  <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="ryzen" />
-  <project path="vendor/ryzen-preference" name="vendor_ryzen-preference" remote="ryzen" />
   <project path="vendor/gms" name="vendor_gms" remote="RyzenOS-Gitlab" revision="thirteen" clone-depth="1" />
-  
-  <!-- other repos -->
-  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="vendor_nxp_opensource_packages_apps_Nfc" remote="ryzen" />
 
 </manifest>
