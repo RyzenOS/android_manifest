@@ -34,7 +34,6 @@
   <!-- hardware repos -->
   <project path="hardware/interfaces" name="hardware_interfaces" remote="ryzen" />
   <project path="hardware/ryzen/interfaces" name="hardware_ryzen_interfaces" remote="ryzen" />
-  <project path="hardware/lineage/livedisplay" name="hardware_lineage_livedisplay" remote="ryzen" />
 
   <!-- framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="ryzen" />
@@ -52,7 +51,6 @@
   <!-- system repos -->
   <project path="system/core" name="system_core" remote="ryzen" />
   <project path="system/update_engine" name="system_update_engine" remote="ryzen" />
-  <project path="system/vold" name="system_vold" remote="ryzen" />
 
   <!-- vendor repos -->
   <project path="vendor/ryzen" name="vendor_ryzen" remote="ryzen" />

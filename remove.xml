@@ -136,7 +136,6 @@
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/update_engine" />
-  <remove-project name="platform/system/vold" />
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/logging" />
 
