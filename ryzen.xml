@@ -26,6 +26,8 @@
   <project path="device/ryzen/sepolicy" name="device_ryzen_sepolicy" remote="ryzen" />
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="ryzen" />
   <project path="device/qcom/sepolicy_vndr-legacy-um" name="device_qcom_sepolicy_vndr" remote="ryzen" revision="tiramisu-legacy-um"  />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="ryzen"  />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="ryzen" />
 
   <!-- external repos -->
   <project path="external/jemalloc_new" name="external_jemalloc_new" groups="pdk" remote="ryzen" />
