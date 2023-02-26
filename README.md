@@ -37,6 +37,7 @@ Credits:
  * [**CAF**](https://source.codeaurora.org)
  * [**AOSP**](https://android.googlesource.com)
  * [**ProtonPlus**](https://github.com/protonplus-org)
+ * [**SuperiorOS**](https://github.com/SuperiorOS)
  * [**LineageOS**](https://github.com/LineageOS)
  * [**ArrowOS**](https://github.com/ArrowOS)
  * [**Xdroid OSS**](https://github.com/xdroid-oss)
