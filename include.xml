@@ -34,6 +34,7 @@
   <project path="external/zlib-ng" name="external_zlib-ng" remote="ProtonPlus"  />
 
   <!-- framework repos -->
+  <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="ProtonPlus" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="arrow" />
 
   <!-- hardware repos -->
@@ -95,6 +96,7 @@
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="arrow" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="ProtonPlus" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="ProtonPlus"  />
+  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="ProtonPlus" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="ProtonPlus"  />
   <project path="packages/apps/RepainterServicePriv" name="packages_apps_RepainterServicePriv"  remote="ProtonPlus" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="ProtonPlus" />
