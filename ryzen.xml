@@ -44,6 +44,7 @@
 
   <!-- packages repos -->
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="RyzenOS-Gitlab" revision="tiramisu" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="ryzen" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ryzen" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="ryzen" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="ryzen" />
