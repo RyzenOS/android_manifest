@@ -59,6 +59,7 @@
   <!-- vendor repos -->
   <project path="vendor/ryzen" name="vendor_ryzen" remote="ryzen" />
   <project path="vendor/support" name="vendor_support" remote="ryzen" />
+  <project path="official" name="RyzenOS-Devices/official" remote="github" />
   <project path="vendor/gms" name="vendor_gms" remote="RyzenOS-Gitlab" revision="tiramisu" clone-depth="1" />
 
 </manifest>
