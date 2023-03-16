@@ -68,12 +68,12 @@
   <project path="system/update_engine" name="system_update_engine" remote="ryzen" />
 
   <!-- Toolchain -->
-  <project path="prebuilts/clang/host/linux-x86/clang-rastamod" name="RastaMod69-Clang" remote="ryzen" />
+  <project path="prebuilts/clang/host/linux-x86/clang-rastamod" name="RastaMod69-Clang" revision="clang-12.0" remote="ryzen" />
 
   <!-- vendor repos -->
   <project path="vendor/ryzen" name="vendor_ryzen" remote="ryzen" />
   <project path="vendor/support" name="vendor_support" remote="ryzen" />
-  <project path="official" name="RyzenOS-Devices/official" remote="github" />
+  <project path="official" name="RyzenOS-Devices/official" revision="tiramisu" remote="github" />
   <project path="vendor/gms" name="vendor_gms" remote="RyzenOS-Gitlab" revision="tiramisu" clone-depth="1" />
 
 </manifest>
