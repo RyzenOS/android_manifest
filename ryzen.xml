@@ -61,6 +61,7 @@
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="ryzen" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="ryzen"  />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="ryzen" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="ryzen"  />
 
   <!-- system repos -->
   <project path="system/core" name="system_core" remote="ryzen" />
