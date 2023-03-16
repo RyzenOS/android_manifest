@@ -32,6 +32,12 @@
   <!-- external repos -->
   <project path="external/jemalloc_new" name="external_jemalloc_new" groups="pdk" remote="ryzen" />
   <project path="external/faceunlock" name="external_faceunlock" remote="RyzenOS-Gitlab" revision="tiramisu" />
+  <project path="external/e2fsprogs" name="external_e2fsprogs" remote="ryzen" />
+  <project path="external/gptfdisk" name="external_gptfdisk" remote="ryzen" />
+  <project path="external/mksh" name="external_mksh" remote="ryzen" />
+  <project path="external/selinux" name="external_selinux" remote="ryzen" />
+  <project path="external/tinycompress" name="external_tinycompress" remote="ryzen" />
+  <project path="external/zlib-ng" name="external_zlib-ng" remote="ryzen"  />
 
   <!-- hardware repos -->
   <project path="hardware/interfaces" name="hardware_interfaces" remote="ryzen" />
@@ -41,6 +47,8 @@
   <project path="frameworks/av" name="frameworks_av" remote="ryzen" />
   <project path="frameworks/base" name="frameworks_base" remote="ryzen" />
   <project path="frameworks/native" name="frameworks_native" remote="ryzen" />
+  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="ryzen" />
+  <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="ryzen" />
 
   <!-- packages repos -->
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="RyzenOS-Gitlab" revision="tiramisu" />
@@ -52,6 +60,7 @@
   <project path="packages/modules/Permission" name="packages_modules_Permission"  remote="ryzen" />
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="ryzen" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="ryzen"  />
+  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="ryzen" />
 
   <!-- system repos -->
   <project path="system/core" name="system_core" remote="ryzen" />

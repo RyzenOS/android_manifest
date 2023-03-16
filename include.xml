@@ -25,18 +25,6 @@
   <project path="external/vim" name="external_vim" remote="ProtonPlus" />
   <project path="external/zip" name="external_zip" remote="ProtonPlus" />
 
-    <!-- externel -->
-  <project path="external/e2fsprogs" name="external_e2fsprogs" remote="ProtonPlus" />
-  <project path="external/gptfdisk" name="external_gptfdisk" remote="ProtonPlus" />
-  <project path="external/mksh" name="external_mksh" remote="ProtonPlus" />
-  <project path="external/selinux" name="external_selinux" remote="ProtonPlus" />
-  <project path="external/tinycompress" name="external_tinycompress" remote="ProtonPlus" />
-  <project path="external/zlib-ng" name="external_zlib-ng" remote="ProtonPlus"  />
-
-  <!-- framework repos -->
-  <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="ProtonPlus" />
-  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="arrow" />
-
   <!-- hardware repos -->
   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="ProtonPlus"  />
   <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,pdk-qcom" remote="arrow" revision="arrow-13.0-caf" />
@@ -96,7 +84,7 @@
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="arrow" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="ProtonPlus" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="ProtonPlus"  />
-  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="ProtonPlus" />
+
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="ProtonPlus"  />
   <project path="packages/apps/RepainterServicePriv" name="packages_apps_RepainterServicePriv"  remote="ProtonPlus" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="ProtonPlus" />
