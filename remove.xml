@@ -128,7 +128,6 @@
   <remove-project name="platform/packages/modules/Permission" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
-  <remove-project name="platform/packages/modules/Wifi" />
 
   <!-- system -->
   <remove-project name="platform/system/core" />
